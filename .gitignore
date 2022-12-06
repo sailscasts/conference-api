@@ -121,7 +121,6 @@ node_modules
 nbproject
 .idea
 *.iml
-.vscode
 .node_history
 dump.rdb
 
@@ -131,4 +130,3 @@ lib-cov
 *.log
 *.out
 *.pid
-
