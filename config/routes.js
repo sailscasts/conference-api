@@ -9,5 +9,7 @@
  */
 
 module.exports.routes = {
-  '/': 'home/index'
+  '/': 'home/index',
+  'GET /conferences': 'conference/index'
+
 };
