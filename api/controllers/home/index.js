@@ -1,31 +1,17 @@
 module.exports = {
+  friendlyName: "Index",
 
+  description: "Index home.",
 
-  friendlyName: 'Index',
+  inputs: {},
 
-
-  description: 'Index home.',
-
-
-  inputs: {
-
-  },
-
-
-  exits: {
-
-  },
-
+  exits: {},
 
   fn: async function (inputs) {
-
     // All done.
     return {
-      name: 'Conference API',
-      description: 'Returns tech related conferences.'
-    }
-
-  }
-
-
+      name: "Conference API",
+      description: "Returns tech related conferences.",
+    };
+  },
 };
