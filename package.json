@@ -18,6 +18,9 @@
     "lint:fix": "npx prettier --write .",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
   "main": "app.js",
   "repository": {
     "type": "git",
