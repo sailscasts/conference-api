@@ -12,12 +12,15 @@
   },
   "devDependencies": {
     "eslint": "5.16.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
     "prettier": "2.8.1"
   },
   "scripts": {
     "start": "NODE_ENV=production node app.js",
     "lint": "npx prettier --check .",
-    "lint:fix": "npx prettier --write ."
+    "lint:fix": "npx prettier --write .",
+    "prepare": "husky install"
   },
   "main": "app.js",
   "repository": {
@@ -28,5 +31,8 @@
   "license": "",
   "engines": {
     "node": "^19.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
