@@ -8,12 +8,11 @@ module.exports = {
   exits: {},
 
   fn: async function (inputs) {
+    const conferences = await Conference.find()
     // All done.
-    return [
-      {
-        name: 'Black Hat',
-        location: 'Las Vegas',
-      },
-    ]
+    return {
+      success: true,
+      data: conferences,
+    }
   },
 }
