@@ -27,6 +27,9 @@ module.exports = {
       isIn: ['online', 'in-person', 'online & in-person'],
       defaultsTo: 'in-person',
     },
+    date: {
+      type: 'string',
+    },
     location: {
       type: 'string',
       required: true,
