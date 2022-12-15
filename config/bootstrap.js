@@ -15,14 +15,22 @@ module.exports.bootstrap = async function () {
   // For example:
   // ```
   // // Set up fake development data (or if we already have some, avast)
-  // if (await User.count() > 0) {
-  //   return;
-  // }
-  //
-  // await User.createEach([
-  //   { emailAddress: 'ry@example.com', fullName: 'Ryan Dahl', },
-  //   { emailAddress: 'rachael@example.com', fullName: 'Rachael Shaw', },
-  //   // etc.
-  // ]);
+  if ((await Conference.count()) > 0) {
+    return
+  }
+
+  await Conference.createEach([
+    {
+      name: 'DevFest Lagos',
+      city: 'Lagos',
+      country: 'Nigeria',
+      date: 'Sat, Nov 26, 8:00 AM',
+      location:
+        'Landmark Event Center - Plot 3 & 4, Water Corporation Road, Oniru, Victoria Island Annex, Lagos Lagos, 101233',
+      twitterUrl: 'https://twitter.com/gdglagos',
+      website:
+        'https://gdg.community.dev/events/details/google-gdg-lagos-presents-devfest-lagos-2022/',
+    },
+  ])
   // ```
 }
