@@ -7,6 +7,8 @@
     "sails-generate": "2.0.7"
   },
   "hooks": {
-    "grunt": false
+    "grunt": false,
+    "session": false,
+    "sockets": false
   }
 }
