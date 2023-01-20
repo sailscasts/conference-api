@@ -9,7 +9,6 @@ module.exports = {
 
   fn: async function (inputs) {
     const conferences = await Conference.find()
-    // All done.
     return {
       success: true,
       data: conferences,
