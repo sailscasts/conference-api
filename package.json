@@ -19,7 +19,7 @@
     "prettier": "2.8.1"
   },
   "scripts": {
-    "dev:staging": "sails_environment=staging node app.js",
+    "dev:staging": "NODE_ENV=production sails_environment=staging node app.js",
     "dev": "node --watch app.js",
     "start": "NODE_ENV=production node app.js",
     "lint": "npx prettier --check .",
