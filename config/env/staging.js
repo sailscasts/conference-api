@@ -10,4 +10,7 @@ module.exports = {
       ssl: true,
     },
   },
+  custom: {
+    baseUrl: 'https://conference-api-staging.onrender.com',
+  },
 }
