@@ -6,9 +6,11 @@
   "keywords": [],
   "dependencies": {
     "@sailshq/lodash": "^3.10.3",
+    "dotenv": "^16.0.3",
     "sails": "^1.5.3",
     "sails-hook-orm": "^4.0.0",
-    "sails-hook-sockets": "^2.0.0"
+    "sails-hook-sockets": "^2.0.0",
+    "sails-postgresql": "^5.0.1"
   },
   "devDependencies": {
     "eslint": "5.16.0",
@@ -17,6 +19,8 @@
     "prettier": "2.8.1"
   },
   "scripts": {
+    "dev:staging": "sails_environment=staging node app.js",
+    "dev": "node --watch app.js",
     "start": "NODE_ENV=production node app.js",
     "lint": "npx prettier --check .",
     "lint:fix": "npx prettier --write .",
