@@ -10,8 +10,13 @@ module.exports = {
   fn: async function (inputs) {
     // All done.
     return {
-      name: 'Conference API',
-      description: 'Returns tech related conferences.',
+      conferencesUrl: `${sails.config.custom.baseUrl}/conferences`,
+      conferenceUrl: `${sails.config.custom.baseUrl}/conferences/{ID}`,
+      meta: {
+        hostUrl: 'https://render.com',
+        databaseProviderUrl: 'https://neon.tech',
+        sailscastsCommunityUrl: 'https://sailscasts.com/chat',
+      },
     }
   },
 }
