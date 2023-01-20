@@ -71,3 +71,42 @@ git push -u origin feature/REPLACE_WITH_THE_FEATURE_OR_FIX_YOUR_ARE_ADDING
 6. Submit a pull request.
 
 At this stage a maintainer will definitely review your P.R and proceed to approve it or give feedbacks if needed.
+
+## Contributing a conference
+
+We currently aggregage conferences every year in the `conferences.json` file at the root of this project.
+To contribute a project, simply add a new entry in the array matching the key of the current year.
+For example to contribute a conference happening in **2023**, add a new entry of the below form
+
+```json
+{
+  "name": "Sailsconf 2023",
+  "city": "Port Harcourt",
+  "country": "Nigeria",
+  "date": "June 14 - 16, 2023",
+  "location": "https://youtube.com/@sailscasts",
+  "twitterUrl": "https://twitter.com/sails_conf",
+  "cfpUrl": "",
+  "website": "https://sailsconf.com"
+}
+```
+
+to the array matching the year 2023:
+
+```json
+{
+  "2023": [
+    {
+      "name": "Sailsconf 2023",
+      "city": "Port Harcourt",
+      "country": "Nigeria",
+      "date": "June 14 - 16, 2023",
+      "location": "https://youtube.com/@sailscasts",
+      "twitterUrl": "https://twitter.com/sails_conf",
+      "website": "https://sailsconf.com"
+    }
+  ]
+}
+```
+
+Once you are done adding the conference(s), open a PR against the `develop` branch.
