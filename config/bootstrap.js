@@ -21,15 +21,13 @@ module.exports.bootstrap = async function () {
 
   await Conference.createEach([
     {
-      name: 'DevFest Lagos',
-      city: 'Lagos',
+      name: 'Sailsconf 2023',
+      city: 'Port Harcourt',
       country: 'Nigeria',
-      date: 'Sat, Nov 26, 8:00 AM',
-      location:
-        'Landmark Event Center - Plot 3 & 4, Water Corporation Road, Oniru, Victoria Island Annex, Lagos Lagos, 101233',
-      twitterUrl: 'https://twitter.com/gdglagos',
-      website:
-        'https://gdg.community.dev/events/details/google-gdg-lagos-presents-devfest-lagos-2022/',
+      date: 'June 14 - 16, 2023',
+      location: 'https://youtube.com/@sailscasts',
+      twitterUrl: 'https://twitter.com/sails_conf',
+      website: 'https://sailsconf.com',
     },
   ])
   // ```
