@@ -9,6 +9,7 @@
     "dotenv": "^16.0.3",
     "sails": "^1.5.3",
     "sails-hook-orm": "^4.0.0",
+    "sails-hook-rate-limit": "^0.0.1",
     "sails-hook-sockets": "^2.0.0",
     "sails-postgresql": "^5.0.1"
   },

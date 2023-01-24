@@ -9,8 +9,9 @@
  * https://sailsjs.com/config/bootstrap
  */
 
-require('dotenv').config()
 module.exports.bootstrap = async function () {
+  // setup dotenv
+  require('dotenv').config()
   // By convention, this is a good place to set up fake data during development.
   //
   // For example:
