@@ -10,5 +10,6 @@
 
 module.exports.routes = {
   '/': 'home/index',
-  'GET /v1/conferences': 'conference/index',
+  'GET /conferences': 'conference/index',
+  'GET /conferences/:id': 'conference/get-conference',
 }
