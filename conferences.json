@@ -1,3 +1,53 @@
 {
-  "2023": []
+  "2023": [
+    {
+      "name": "Blockchain Africa Conference 2023",
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "date": "March 16 - 17, 2023",
+      "location": "http://www.thegalleria.co.za",
+      "twitterUrl": "https://twitter.com/BlockchainZA",
+      "website": "https://blockchainafrica.co/register/"
+    },
+
+    {
+      "name": "Africa Tech Summit 2023",
+      "city": "Nairobi",
+      "country": "Kenya",
+      "date": "Feb 15 - 16, 2023",
+      "location": "Sarit Expo Centre, Westlands, Nairobi",
+      "twitterUrl": "https://twitter.com/AfricaTechSMT",
+      "website": "https://www.africatechsummit.com"
+    },
+
+    {
+      "name": "Lagos Tech Fest",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "date": "Feb 15 2023",
+      "location": "Landmark Centre Water Corporation Drive #Plot 2 & 3 Annex, LA 106104",
+      "twitterUrl": "https://twitter.com/AfricaTechSMT",
+      "website": "https://tech.eventhive.ng"
+    },
+
+    {
+      "name": "IOT West Africa",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "date": "July 4 -6, 2023",
+      "location": "Landmark Centre Water Corporation Drive #Plot 2 & 3 Annex, LA 106104",
+      "twitterUrl": "https://twitter.com/iotwestafrica",
+      "website": "https://iotwestafrica.com"
+    },
+
+    {
+      "name": "Cyber Tech Africa",
+      "city": "Kigali",
+      "country": "Rwanada",
+      "date": "June 6-7, 2023",
+      "location": "Kigali Convention Center, Rwanda",
+      "twitterUrl": "https://twitter.com/Cybertech_Globl",
+      "website": "https://africa.cybertechconference.com"
+    }
+  ]
 }
